@@ -10,7 +10,7 @@ class Directory extends React.Component {
         this.state = {
             sections: [
                 {
-                    id: 1,
+                    id: 1, 
                     title: 'Refrigerators',
                     imageUrl: 'https://hamrokitchen.com/wp-content/uploads/2017/09/refrigerators.jpg?b09e47',
                     linkUrl: 'Refrigerators'
