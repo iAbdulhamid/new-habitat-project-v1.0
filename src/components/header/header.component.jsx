@@ -15,6 +15,7 @@ const Header = (props) => (
         <div className="options">
             <Link className="option" to="/shop">SHOP</Link>
             <Link className="option" to="">CONTACT US</Link>
+            <Link className="option" to="/signIn">SIGN IN</Link>
         </div>
     </div>
 
