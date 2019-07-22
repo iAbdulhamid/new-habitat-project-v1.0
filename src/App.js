@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import { Switch, Route } from 'react-router-dom';
+
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop-page/shop-page.component';
-
-import { Switch, Route } from 'react-router-dom';
+import Header from './components/header/header.component';
 
 // const RefrigeratorsPage = () => (
 //   <div>
@@ -14,6 +15,8 @@ import { Switch, Route } from 'react-router-dom';
 function App() {
   return (
     <div>
+
+      <Header></Header>
 
       {/* Switch => first Route match wins ... */}
       <Switch> 
