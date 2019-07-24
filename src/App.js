@@ -8,17 +8,11 @@ import Header from './components/header/header.component';
 import SignInAndUpPage from './pages/sign-up-in-page/sign-up-in-page.component';
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
-
+import { connect } from 'react-redux';
+import { setCurrentUser } from './redux/user/user.actions';
 
 
 class App extends React.Component {
-  constructor() {
-    super();
-
-    this.state = {
-      currentUser: null
-    }
-  }
 
   unsubscribeFromAuth = null;
 
@@ -28,15 +22,13 @@ class App extends React.Component {
         const userRef = await createUserProfileDocument(user);
 
         userRef.onSnapshot(snapshot => { // onSnapshot => like: onAuthStateChanged
-          this.setState({ 
-            currentUser:{
+            this.props.setCurrentUser({
               id: snapshot.id,
               ...snapshot.data()
-            }
-          }, () => console.log(this.state));
-        })
+            })
+          })
       } else {
-        this.setState({ currentUser: user });
+        this.props.setCurrentUser(user);
       }
     });
   }
@@ -51,9 +43,9 @@ class App extends React.Component {
   
         {/* we need the header component to know if there is any logged in user => so he can change 
         SIGNIN word to SIGNOUT */}
-        <Header currentUser = { this.state.currentUser } />
+        {/* <Header currentUser = { this.state.currentUser } /> */}
   
-  
+        <Header />
         {/* Switch => first Route match wins ... */}
         <Switch> 
   
@@ -69,4 +61,8 @@ class App extends React.Component {
   
 }
 
-export default App;
+const mapDispatchToProps = dispatch => ({
+  setCurrentUser: user => dispatch(setCurrentUser(user))
+});
+
+export default connect(null, mapDispatchToProps)(App);
