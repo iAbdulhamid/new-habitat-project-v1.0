@@ -5,49 +5,49 @@ const SHOP_DATA = [
       routeName: 'refrigerators',
       items: [
         {
-          id: 1,
+          id: 11,
           name: 'Kiriazi Solitare Freestanding Refrigerator, No Frost, 2 Doors, 12 FT, Black - KH336LN/3',
           imageUrl: 'https://btech.com/media/catalog/product/cache/56fc7608da6a7793df783fca172b74a3/k/h/kh335_n-3--_black_close.jpg',
           price: 7150
         },
         {
-          id: 2,
+          id: 12,
           name: 'Electrostar Freestanding Eleganza Refrigerator, No Frost, 2 Doors, 24 FT, Silver - LR650EN',
           imageUrl: 'https://btech.com/media/catalog/product/cache/56fc7608da6a7793df783fca172b74a3/p/h/photo-2018-08-14-00-11-58.jpg',
           price: 11990
         },
         {
-          id: 3,
+          id: 13,
           name: 'Unionaire Freestanding Upright Deep Freezer, No Frost, 6 Drawers, Black - UF230VSNC1',
           imageUrl: 'https://btech.com/media/catalog/product/cache/56fc7608da6a7793df783fca172b74a3/u/n/unionaire-deep-freezer-5-drawers-digital-black-uf205_1.jpg',
           price: 6600
         },
         {
-          id: 5,
+          id: 14,
           name: 'White Whale Freestanding Deep Freezer, 7 Drawers, 300 Liters, Stainless Steel - WF-3067MSS',
           imageUrl: 'https://btech.com/media/catalog/product/cache/56fc7608da6a7793df783fca172b74a3/w/h/white-whale-7-drawers-deep-freezer-dual-function-digital-screen-stainless-wf-3067mss-digital.jpg',
           price: 9700
         },
         {
-          id: 6,
+          id: 15,
           name: 'Palm Tree Cap',
           imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
           price: 14
         },
         {
-          id: 7,
+          id: 16,
           name: 'Red Beanie',
           imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
           price: 18
         },
         {
-          id: 8,
+          id: 17,
           name: 'Wolf Cap',
           imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
           price: 14
         },
         {
-          id: 9,
+          id: 18,
           name: 'Blue Snapback',
           imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
           price: 16
@@ -60,49 +60,49 @@ const SHOP_DATA = [
       routeName: 'gascookers',
       items: [
         {
-          id: 1,
+          id: 21,
           name: 'Unionaire Freestanding i-Steel Gas Cooker, 5 Burners, Stainless Steel, 90 cm - C6090FC511-I',
           imageUrl: 'https://btech.com/media/catalog/product/cache/56fc7608da6a7793df783fca172b74a3/j/o/job_5541-min.jpg',
           price: 4300
         },
         {
-          id: 2,
+          id: 22,
           name: 'Fresh Plaza Gas Cooker, 5 Burners, Black, 90 cm - 6330',
           imageUrl: 'https://btech.com/media/catalog/product/cache/56fc7608da6a7793df783fca172b74a3/1/f/1frco609plaza6330l90.jpg',
           price: 3400
         },
         {
-          id: 3,
+          id: 23,
           name: 'Unionaire 5 Burners i-Cook Pro Gas Cooker, Stainless Steel, 100 cm - C60100SC',
           imageUrl: 'Unionaire 5 Burners i-Cook Pro Gas Cooker, Stainless Steel, 100 cm - C60100SC',
           price: 7170
         },
         {
-          id: 4,
+          id: 24,
           name: 'Fresh Hummer Gas Cooker, 5 Burners, Stainless Steel, 90 cm - ST6372',
           imageUrl: 'https://btech.com/media/catalog/product/cache/56fc7608da6a7793df783fca172b74a3/h/u/hummer-90-digital.jpg',
           price: 6630
         },
         {
-          id: 5,
+          id: 25,
           name: 'Nike Red High Tops',
           imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
           price: 160
         },
         {
-          id: 6,
+          id: 26,
           name: 'Nike Brown High Tops',
           imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
           price: 160
         },
         {
-          id: 7,
+          id: 27,
           name: 'Air Jordan Limited',
           imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
           price: 190
         },
         {
-          id: 8,
+          id: 28,
           name: 'Timberlands',
           imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
           price: 200

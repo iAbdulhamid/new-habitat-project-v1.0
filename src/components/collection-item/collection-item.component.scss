@@ -5,7 +5,19 @@
     flex-direction: column;
     height: 410px;
     align-items: center;
-    border: 1px solid rgb(207, 207, 1);
+    border: 1px solid rgba(247 ,223,29,1);
+    position: relative;
+
+    &:hover {
+      .image {
+        opacity: 0.5;
+      }
+      .custom-button {
+        opacity: 1;
+        background-color: rgba(247 ,223,29,1);
+        border: none;
+      }
+    }
 
   
     .image {
@@ -31,6 +43,12 @@
       .price {
         width: 10%;
       }
+    }
+
+    .custom-button {
+      position: absolute;
+      opacity: 0.4;
+      top: 200px;
     }
   }
   
