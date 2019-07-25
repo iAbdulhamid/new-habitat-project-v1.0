@@ -18,13 +18,24 @@
       }
     }
     .name,
-    .quantity,
-    .price {
+        .price {
       width: 23%;
     }
   
-    .quantity, .price, .remove-button {
+     .price, .remove-button {
       padding-left: 40px;
+      margin-left: auto;
+    }
+    .quantity {
+      display: flex;
+      justify-content: space-around;
+      width: 15%;
+
+      .arrow {
+        &:hover {
+          cursor: pointer;
+        }
+      }
     }
   
     .remove-button {
