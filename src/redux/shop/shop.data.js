@@ -108,7 +108,7 @@ const SHOP_DATA = [
           price: 200
         }
       ]
-    },
+    }, 
     // {
     //   id: 3,
     //   title: 'Jackets',
